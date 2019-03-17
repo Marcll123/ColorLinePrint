@@ -1,0 +1,64 @@
+.iconoli{
+    margin-right: 5px;
+    margin-left: 10px;
+}
+
+.iconol2{
+    margin-right: 15px;
+    margin-left: 10px;
+}
+
+.icolor{
+    color: black;
+}
+.iconp{
+    margin-left: 7em;
+}
+.iconp2{
+    margin-left: 7em;
+}
+.iconp3{
+    margin-left: 8em;
+}
+.logo{
+    height: 2em;
+    width: 6em;
+}
+.color1{
+    color: crimson;
+} 
+.color2{
+    color: lime;
+} 
+
+.list-group-item {
+    position: relative;
+    display: block;
+    padding: 0.75rem 1.25rem;
+    margin-bottom: -1px;
+    background-color: #fff;
+    border: 1px solid whitesmoke;
+}
+.bg{
+    background-color: whitesmoke;
+}
+.content-card{
+    margin-top: 1em;
+}
+.imgx{
+    margin-left: 15rem;
+}
+.text{
+    color: dimgray;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 1rem;
+}
+.group-task{
+    margin: 1rem;
+}
+.text-side{
+    font-size: 13px;
+    color: gainsboro;
+}
+
