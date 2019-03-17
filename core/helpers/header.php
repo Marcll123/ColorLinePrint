@@ -24,21 +24,21 @@
 
             <div class="list-group list-group-flush">
               
-                <a href="" class="list-group-item list-group-item-action bg-white text-dark">Inicio</a>
+                <a href="../../views/dashboard/index.php" class="list-group-item list-group-item-action bg-white text-dark">Inicio</a>
                 <a href="#userData" data-toggle="collapse"
                     class="list-group-item list-group-item-action bg-white text-dark">Usuarios <i
                         class="fas fa-angle-down iconp text-primary"></i></a>
                 <div id="userData" class="collapse">
                     <a href="#" class="list-group-item list-group-item-action bg-white text-dark"><i
-                            class="fas fa-user iconol2 text-primary"></i>Nuevo usuarios</a>
+                            class="fas fa-user iconol2 text-primary"></i>Administrar usuarios</a>
                     <a href="#" class="list-group-item list-group-item-action bg-white text-dark"><i
-                            class="fas fa-users-cog iconoli text-success"></i> Administrar Usuarios</a>
+                            class="fas fa-users-cog iconoli text-success"></i> Administrar empresas</a>
                 </div>
                 <a href="#comprasData" data-toggle="collapse"
                     class="list-group-item list-group-item-action bg-white text-dark">Compras<i
                         class="fas fa-angle-down iconp2 text-primary"></i></a>
                 <div id="comprasData" class="collapse">
-                    <a href="#" class="list-group-item list-group-item-action bg-white text-dark"><i
+                    <a href="../../views/dashboard/compras.php" class="list-group-item list-group-item-action bg-white text-dark"><i
                             class="fas fa-shopping-bag iconoli text-warning"></i>Realizar Compras</a>
                     <a href="#" class="list-group-item list-group-item-action bg-white text-dark"><i
                             class="fas fa-shopping-cart iconoli text-primary"></i>Gestion compras</a>
@@ -50,7 +50,7 @@
                         class="fas fa-angle-down iconp3 text-primary"></i></a>
                 <div id="ventasData" class="collapse">
                     <a href="#" class="list-group-item list-group-item-action bg-white text-dark bg-light"><i
-                            class="fas fa-clipboard-check iconoli text-success"></i>Gestionar Ventas</a>
+                            class="fas fa-clipboard-check iconoli text-success"></i>Realizar Ventas</a>
                     <a href="#" class="list-group-item list-group-item-action bg-white text-dark"><i
                             class="fas fa-tasks iconoli text-warning"></i>Detalle de ventas</a>
                 </div>
