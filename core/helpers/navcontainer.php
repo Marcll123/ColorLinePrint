@@ -6,7 +6,7 @@
 
      <ul class="navbar-nav ml-auto mt-2 mt-lg-0 ">
          <li class="nav-item active">
-             <a class="nav-link text-primary" href="#"><i class="fas fa-sign-out-alt"></i> Cerrar
+             <a class="nav-link text-primary" href="../../views/dashboard/login.php"><i class="fas fa-sign-out-alt"></i> Cerrar
                  sesion<span class="sr-only">(current)</span></a>
          </li>
      </ul>
