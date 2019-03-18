@@ -40,7 +40,7 @@
                 <div id="comprasData" class="collapse">
                     <a href="../../views/dashboard/compras.php" class="list-group-item list-group-item-action bg-white text-dark"><i
                             class="fas fa-shopping-bag iconoli text-warning"></i>Realizar Compras</a>
-                    <a href="#" class="list-group-item list-group-item-action bg-white text-dark"><i
+                    <a href="../../views/dashboard/detallecompras.php" class="list-group-item list-group-item-action bg-white text-dark"><i
                             class="fas fa-shopping-cart iconoli text-primary"></i>Gestion compras</a>
                     <a href="#" class="list-group-item list-group-item-action bg-white text-dark"><i
                             class="fas fa-warehouse iconoli text-danger"></i>Inventario</a>

@@ -24,16 +24,13 @@
                                 <div class="row">
                                     <div class="col-6">
                                         <label for="corelativoa"> Correlativo asignado:</label>
-                                        <input type="text" id="corelativoa" class="form-control"
-                                            placeholder="Correlativo asignado">
+                                        <input type="text" id="corelativoa" class="form-control">
                                         <label for="numerodocumento"> Numero de documentos:</label>
-                                        <input type="text" id="numerodocumento" class="form-control"
-                                            placeholder="Numero de documentos">
+                                        <input type="text" id="numerodocumento" class="form-control">
                                         <label for="cproveedor"> Codigo del proveedor:</label>
-                                        <input type="text" id="cproveedor" class="form-control"
-                                            placeholder="Codigo del proveedor">
+                                        <input type="text" id="cproveedor" class="form-control">
                                         <label for="direccion"> Dirreccion:</label>
-                                        <input type="text" id="direccion" class="form-control" placeholder="Direccion">
+                                        <input type="text" id="direccion" class="form-control">
                                         <label for="bodega"> Bodega:</label>
                                         <select id="bodega" class="form-control form-control-sm">
                                             <option>General</option>
@@ -45,13 +42,12 @@
                                     </div>
                                     <div class="col-6">
                                         <label for="seriedocto"> Serie del docto:</label>
-                                        <input type="text" id="seriedocto" class="form-control"
-                                            placeholder="Serie del docto">
+                                        <input type="text" id="seriedocto" class="form-control">
                                         <label for="fechac"> Fecha de compra:</label>
                                         <input class="form-control" type="date" id="fechac" value="2019-03-19"
                                             id="example-date-input">
                                         <label for="nombreEmpresa"> Nombre:</label>
-                                        <input type="text" id="nombreEmpresa" class="form-control" placeholder="Nombre">
+                                        <input type="text" id="nombreEmpresa" class="form-control">
 
                                         <div class="row">
                                             <div class="col">
@@ -87,15 +83,15 @@
                         <div class="card">
                             <div class="card-body">
                                 <label for="corelativoa"> N registro</label>
-                                <input type="text" id="corelativoa" class="form-control" placeholder="N registro">
+                                <input type="text" id="corelativoa" class="form-control">
                                 <label for="corelativoa"> NIT:</label>
-                                <input type="text" id="corelativoa" class="form-control" placeholder="NIT">
+                                <input type="text" id="corelativoa" class="form-control">
                                 <label for="corelativoa"> N O compra:</label>
-                                <input type="text" id="corelativoa" class="form-control" placeholder="N O compra">
+                                <input type="text" id="corelativoa" class="form-control">
                                 <label for="corelativoa"> DAI:</label>
-                                <input type="text" id="corelativoa" class="form-control" placeholder="DAI">
+                                <input type="text" id="corelativoa" class="form-control">
                                 <label for="corelativoa"> Doc Excluidos:</label>
-                                <input type="text" id="corelativoa" class="form-control" placeholder="Doc Excluidos">
+                                <input type="text" id="corelativoa" class="form-control">
                             </div>
                         </div>
 
