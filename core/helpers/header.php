@@ -34,9 +34,9 @@ inglues el manejo de usuarios, manejo de ventas, manejo de compras y sus adminis
                     class="list-group-item list-group-item-action bg-white text-dark">Usuarios <i
                         class="fas fa-angle-down iconp text-primary"></i></a>
                 <div id="userData" class="collapse">
-                    <a href="#" class="list-group-item list-group-item-action bg-white text-dark"><i
+                    <a href="../../views/dashboard/Users.php" class="list-group-item list-group-item-action bg-white text-dark"><i
                             class="fas fa-user iconol2 text-primary"></i>Administrar usuarios</a>
-                    <a href="#" class="list-group-item list-group-item-action bg-white text-dark"><i
+                    <a href="../../views/dashboard/Enterprises.php" class="list-group-item list-group-item-action bg-white text-dark"><i
                             class="fas fa-users-cog iconoli text-success"></i> Administrar empresas</a>
                 </div>
                 <!--Aprtado de compras cuenta con toda administracion-->
@@ -71,9 +71,9 @@ inglues el manejo de usuarios, manejo de ventas, manejo de compras y sus adminis
                     class="list-group-item list-group-item-action bg-white text-dark">Ajustes<i
                         class="fas fa-angle-down iconp3 text-primary"></i></a>
                 <div id="ajustesData" class="collapse">
-                    <a href="#" class="list-group-item list-group-item-action bg-white text-dark bg-light"><i
+                    <a href="../../views/dashboard/settings.php" class="list-group-item list-group-item-action bg-white text-dark bg-light"><i
                             class="fas fa-user-cog iconoli text-danger"></i>Mi perfil</a>
-                    <a href="#" class="list-group-item list-group-item-action bg-white text-dark"><i
+                    <a href="../../views/dashboard/notes.php" class="list-group-item list-group-item-action bg-white text-dark"><i
                             class="fas fa-sticky-note iconoli text-primary"></i>Notas</a>
                 </div>
             </div>
