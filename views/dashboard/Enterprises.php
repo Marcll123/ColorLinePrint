@@ -1,3 +1,4 @@
+<!--Se trae desde  helpers el menu del programa con php-->
 <?php
     require_once '../../core/helpers/header.php'
 ?>
@@ -16,6 +17,7 @@
                     <h5 class="text-primary text-center">EMPRESAS</h5>
                 </div>
             </div>
+            <!-- tipos de empresas -->
             <div class="row">
                 <div class="col-12">
                     <div class="nav nav-tabs" id="nav-tab" role="tablist">
@@ -23,6 +25,7 @@
                         <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Datos Fiscales Y Parametros</a>
                         <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Otros</a>
                     </div>
+                    <!-- Formulario para agregar empresas-->
                     <div class="card">
                         <div class="card-body">
                             <div class="row">
@@ -147,6 +150,7 @@
                             </div>
                         </div>
                     </div>
+                    <!-- Boton de confirmacion-->
                     <div class="col">
                         <div class="card">
                             <div class="card-body text-center">

@@ -1,3 +1,4 @@
+<!--Se trae desde  helpers el menu del programa con php-->
 <?php
     require_once '../../core/helpers/header.php'
 ?>
@@ -19,6 +20,7 @@
                         </div>
                     </div>
                 </div>
+                <!-- Buscador de la tabla-->
                 <div class="col-12">
                     <div class="card card-margen">
                         <div class="card-body">
@@ -29,6 +31,7 @@
                                     <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Buscar</button>
                                 </form>
                             </nav>
+                            <!--Se crea la tabla con todos los datos registrados de las ventas-->
                             <table class="table table-responsive-ms">
                                 <thead class="bg-primary text-white">
                                     <tr>
@@ -137,6 +140,7 @@
                                         </td>
                                     </tr>
                                 </tbody>
+                                <!-- paginacion de la tabla-->
                             </table>
                             <nav aria-label="Page navigation example ">
                                 <ul class="pagination justify-content-center">
@@ -153,6 +157,7 @@
             </div>
         </div>
     </div>
+    <!-- Se manda a llamar el footer-->
     <?php 
     require_once '../../core/helpers/footer.php'
 ?>

@@ -26,23 +26,23 @@
 
                                 <div class="row">
                                     <div class="col-6">
-                                        <label for="sucursal"> Surcursal:</label>
+                                        <label for="sucursal"> Sucursal :</label>
                                         <select id="sucursal" class="form-control form-control-sm">
                                             <option>Origen</option>
                                         </select>
-                                        <label for="tipoComprovante"> Tipo de coprovante:</label>
+                                        <label for="tipoComprovante"> Tipo de comprobante :</label>
                                         <select id="tipoComprovante" class="form-control form-control-sm">
-                                            <option>Credito fiscal</option>
+                                            <option>Crédito fiscal </option>
                                             <option>Tikets</option>
                                             <option>Factura consumidor final</option>
-                                            <option>Factura exportacion</option>
-                                            <option>Nota de credito</option>
+                                            <option>Factura exportación</option>
+                                            <option>Nota de  crédito</option>
                                             <option>Nota de debito</option>
-                                            <option>Factura de devolucion</option>
+                                            <option>Factura de devolución</option>
                                         </select>
-                                        <label for="codigocliente"> Codigo cliente:</label>
+                                        <label for="codigocliente"> Código cliente:</label>
                                         <input type="text" id="codigocliente" class="form-control">
-                                        <label for="direccionventas"> Direccion:</label>
+                                        <label for="direccionventas"> Dirección:</label>
                                         <input type="text" id="direccionventas" class="form-control">
                                     </div>
                                     <div class="col-6">
@@ -68,7 +68,7 @@
                                             </div>
 
                                             <div class="col-4">
-                                                <label for="diasCredito"> Dias de credito:</label>
+                                                <label for="diasCredito"> Días de credito:</label>
                                                 <input type="text" id="diasCredito" class="form-control">
                                             </div>
 
@@ -144,7 +144,7 @@
                                     <div class="col-5">
                                         <label for="corelativoa">T/P:</label>
                                         <input type="text" id="corelativoa" class="form-control">
-                                        <label for="corelativoa"> Descripcion:</label>
+                                        <label for="corelativoa"> Descripción:</label>
                                         <input type="text" id="corelativoa" class="form-control">
                                         <label for="corelativoa">Total gravado:</label>
                                         <input type="text" id="corelativoa" class="form-control">
@@ -178,8 +178,8 @@
                 <div class="col">
                     <div class="card">
                         <div class="card-body text-center">
-                            <button type="button" class="btn btn-primary">Realizar Accion</button>
-                            <button type="button" class="btn btn-danger">Realizar e Imprimir</button>
+                            <button type="button" class="btn btn-primary">Realizar áccion</button>
+                            <button type="button" class="btn btn-danger">Realizar e imprimir</button>
                         </div>
                     </div>
                 </div>

@@ -46,10 +46,10 @@ inglues el manejo de usuarios, manejo de ventas, manejo de compras y sus adminis
                 <div id="comprasData" class="collapse">
                     <a href="../../views/dashboard/compras.php"
                         class="list-group-item list-group-item-action bg-white text-dark"><i
-                            class="fas fa-shopping-bag iconoli text-warning"></i>Realizar Compras</a>
+                            class="fas fa-shopping-bag iconoli text-warning"></i>Realizar compras</a>
                     <a href="../../views/dashboard/detallecompras.php"
                         class="list-group-item list-group-item-action bg-white text-dark"><i
-                            class="fas fa-shopping-cart iconoli text-primary"></i>Gestion compras</a>
+                            class="fas fa-shopping-cart iconoli text-primary"></i>Gestión compras</a>
                     <a href="#" class="list-group-item list-group-item-action bg-white text-dark"><i
                             class="fas fa-warehouse iconoli text-danger"></i>Inventario</a>
                 </div>
@@ -60,7 +60,7 @@ inglues el manejo de usuarios, manejo de ventas, manejo de compras y sus adminis
                 <div id="ventasData" class="collapse">
                     <a href="../../views/dashboard/ventas.php"
                         class="list-group-item list-group-item-action bg-white text-dark bg-light"><i
-                            class="fas fa-clipboard-check iconoli text-success"></i>Realizar Ventas</a>
+                            class="fas fa-clipboard-check iconoli text-success"></i>Realizar ventas</a>
                     <a href="../../views/dashboard/detalleventas.php"
                         class="list-group-item list-group-item-action bg-white text-dark"><i
                             class="fas fa-tasks iconoli text-warning"></i>Detalle de ventas</a>

@@ -23,10 +23,10 @@
             <div class="card car-c ">
                 <div class="card clase-card">
                     <div class="card-body">
-                        <h4 class="card-title text-center text-primary">Iniciar sesion</h4><br />
+                        <h4 class="card-title text-center text-primary">Iniciar sesión</h4><br />
                         <form>
                             <div class="form-group">
-                                <label for="exampleInputEmail1" class="text-primary">Correo electronico</label>
+                                <label for="exampleInputEmail1" class="text-primary">Correo electrónico </label>
                                 <input type="email" class="form-control" id="exampleInputEmail1"
                                     aria-describedby="emailHelp" placeholder="Correo electronico">
                             </div>
@@ -37,7 +37,7 @@
                             </div>
                             <a href="">¿Olvidaste tu contraseña?</a><br /><br />
                             <a href="../../views/dashboard/index.php" class="btn btn-primary btn-login">Iniciar
-                                sesion</a>
+                            Sesión  </a>
                         </form>
                     </div>
                 </div>

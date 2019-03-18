@@ -29,9 +29,9 @@
                                         <input type="text" id="corelativoa" class="form-control">
                                         <label for="numerodocumento"> Numero de documentos:</label>
                                         <input type="text" id="numerodocumento" class="form-control">
-                                        <label for="cproveedor"> Codigo del proveedor:</label>
+                                        <label for="cproveedor"> Código del proveedor:</label>
                                         <input type="text" id="cproveedor" class="form-control">
-                                        <label for="direccion"> Dirreccion:</label>
+                                        <label for="direccion"> Dirección:</label>
                                         <input type="text" id="direccion" class="form-control">
                                         <label for="bodega"> Bodega:</label>
                                         <select id="bodega" class="form-control form-control-sm">
@@ -63,7 +63,7 @@
                                                 <label for="formaP"> Forma pago:</label>
                                                 <select id="tipoC" class="form-control form-control-sm">
                                                     <option>Contado</option>
-                                                    <option>Creditos</option>
+                                                    <option>Créditos</option>
                                                 </select>
                                             </div>
                                         </div>
@@ -71,7 +71,7 @@
                                         <label for="origenC"> Origen compra:</label>
                                         <select id="origenC" class="form-control form-control-sm">
                                             <option>Local</option>
-                                            <option>Importacion</option>
+                                            <option>Importación</option>
                                         </select>
                                         <label for="fechavecto"> Fecha de Vencto:</label>
                                         <input class="form-control" type="date" id="fechavecto" value="2019-03-19"
@@ -107,7 +107,7 @@
                                         <input type="text" id="corelativoa" class="form-control">
                                         <label for="corelativoa"> Cantidad:</label>
                                         <input type="text" id="corelativoa" class="form-control">
-                                        <label for="corelativoa"> Descripcion:</label>
+                                        <label for="corelativoa"> Descripción:</label>
                                         <input type="text" id="corelativoa" class="form-control">
                                     </div>
                                     <div class="col-5">
@@ -141,9 +141,9 @@
                 <div class="col">
                     <div class="card">
                         <div class="card-body text-center">
-                            <button type="button" class="btn btn-primary">Realizar Accion</button>
+                            <button type="button" class="btn btn-primary">Realizar Acción </button>
                             <button type="button" class="btn btn-danger">Aplicar al Inventario</button>
-                            <button type="button" class="btn btn-warning">Revertir Aplicacion</button>
+                            <button type="button" class="btn btn-warning">Revertir Aplicación</button>
                         </div>
                     </div>
                 </div>

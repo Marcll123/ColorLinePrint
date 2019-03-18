@@ -100,7 +100,7 @@
                 <div class="modal-body">
                     <form action="" class="form-group">
                     <select id="tipoC" class="form-control form-control-sm">
-                        <option>maculino</option>
+                        <option>Maculino</option>
                         <option>Femenino</option>
                     </select>
                      

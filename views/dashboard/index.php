@@ -63,7 +63,7 @@
                                     <img src="../../resources/img/principal/shopping-cart.png" alt="">
                                 </div>
                                 <div class="col-sm-12">
-                                    <p>Desde hace una dia</p>
+                                    <p>Desde hace una día</p>
                                 </div>
                             </div>
                         </div>
@@ -78,29 +78,29 @@
             <a href="#" class="list-group-item list-group-item-action">
                 <div class="d-flex w-100 justify-content-between">
                     <h5 class="mb-1">Diseño de logotipo</h5>
-                    <small>3 hace tres dias</small>
+                    <small>3 hace tres días</small>
                 </div>
-                <p class="mb-1">Realizavion del diseños a una empresa que llevara como producto principal
+                <p class="mb-1">Realización del diseños a una empresa que llevara como producto principal
                     el cuido al medio ambiente
                 </p>
                 <small class="text-primary">Estado Medio</small>
             </a>
             <a href="#" class="list-group-item list-group-item-action">
                 <div class="d-flex w-100 justify-content-between">
-                    <h5 class="mb-1">Creacion de Banner</h5>
-                    <small class="text-muted">3 hace tres dias</small>
+                    <h5 class="mb-1">Creación  de Banner</h5>
+                    <small class="text-muted">3 hace tres días</small>
                 </div>
-                <p class="mb-1">Realiacion de un banner para una empresa que lleve todo sus productos en
+                <p class="mb-1">Realización de un banner para una empresa que lleve todo sus productos en
                     el diseño
                 </p>
                 <small class=" text-success">Casi finalizado</small>
             </a>
             <a href="#" class="list-group-item list-group-item-action">
                 <div class="d-flex w-100 justify-content-between">
-                    <h5 class="mb-1">Creacion de tikets</h5>
-                    <small class="text-muted">3 hace tres dias</small>
+                    <h5 class="mb-1">Creación de tikets</h5>
+                    <small class="text-muted">3 hace tres días</small>
                 </div>
-                <p class="mb-1">Realizacion de tikets de descuento para un restaurante uq equiere que
+                <p class="mb-1">Realizacion de tikets de descuento para un restaurante que quiere que
                     token_get_allsu logo y lema</p>
                 <small class="text-warning">Comenzando</small>
             </a>

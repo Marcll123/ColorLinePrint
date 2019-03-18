@@ -114,7 +114,7 @@
                     </button>
                 </div>
                 <div class="modal-body">
-                   ¿¿Estas Seguro Que quieres Eliminar este Usuario??
+                   ¿¿Estas seguro que quieres eliminar este usuario??
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>

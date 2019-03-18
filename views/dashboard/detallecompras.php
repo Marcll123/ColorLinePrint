@@ -1,6 +1,4 @@
-<?php
-    require_once '../../core/helpers/header.php'
-?>
+<!--Se trae desde  helpers el menu del programa con php-->
 <?php
     require_once '../../core/helpers/header.php'
 ?>
@@ -29,6 +27,7 @@
                                     <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Buscar</button>
                                 </form>
                             </nav>
+                            <!--Se crea la tabla con todos los datos registrados de las compras-->
                             <table class="table table-responsive-sm">
                                 <thead class="bg-primary text-white">
                                     <tr>
@@ -125,6 +124,7 @@
             </div>
         </div>
     </div>
+    <!--Se traen todos los scrips nesesarios-->
     <?php 
     require_once '../../core/helpers/footer.php'
 ?>
