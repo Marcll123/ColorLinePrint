@@ -15,7 +15,7 @@
                 <div class="col-12">
                     <div class="card card-margen">
                         <div class="card-body">
-                            <h5 class="text-primary text-center">DETALLE COMPRAS</h5>
+                            <h5 class="text-primary text-center">DETALLE VENTAS</h5>
                         </div>
                     </div>
                 </div>
@@ -29,16 +29,20 @@
                                     <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Buscar</button>
                                 </form>
                             </nav>
-                            <table class="table table-responsive-sm">
+                            <table class="table table-responsive-ms">
                                 <thead class="bg-primary text-white">
                                     <tr>
-                                        <th scope="col">Codigo</th>
+                                        <th scope="col">Card producto</th>
+                                        <th scope="col">UMD</th>
                                         <th scope="col">Cantidad</th>
+                                        <th scope="col">Descuento</th>
+                                        <th scope="col">T/P</th>
                                         <th scope="col">Descripcion</th>
-                                        <th scope="col">Precio unitario</th>
-                                        <th scope="col">Total exento</th>
                                         <th scope="col">Total gravado</th>
-                                        <th scope="col">acciones</th>
+                                        <th scope="col">P/unitario</th>
+                                        <th scope="col">V/No sujeta</th>
+                                        <th scope="col">U/conversion</th>
+                                        <th scope="col">Acciones</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -47,6 +51,10 @@
                                         <td>100</td>
                                         <td>Tintes Negros</td>
                                         <td>0.50</td>
+                                        <td>500.00</td>
+                                        <td>500.50</td>
+                                        <td>500.00</td>
+                                        <td>500.50</td>
                                         <td>500.00</td>
                                         <td>500.50</td>
                                         <td><a href=""><i class="fas fa-pen text-success"></i></a>
@@ -60,6 +68,10 @@
                                         <td>0.50</td>
                                         <td>500.00</td>
                                         <td>500.50</td>
+                                        <td>500.00</td>
+                                        <td>500.50</td>
+                                        <td>500.00</td>
+                                        <td>500.50</td>
                                         <td><a href=""><i class="fas fa-pen text-success"></i></a>
                                             <a href=""><i class="fas fa-trash-alt icon2 text-danger"></i></a>
                                         </td>
@@ -69,6 +81,10 @@
                                         <td>100</td>
                                         <td>Tintes Negros</td>
                                         <td>0.50</td>
+                                        <td>500.00</td>
+                                        <td>500.50</td>
+                                        <td>500.00</td>
+                                        <td>500.50</td>
                                         <td>500.00</td>
                                         <td>500.50</td>
                                         <td><a href=""><i class="fas fa-pen text-success"></i></a>
@@ -82,6 +98,10 @@
                                         <td>0.50</td>
                                         <td>500.00</td>
                                         <td>500.50</td>
+                                        <td>500.00</td>
+                                        <td>500.50</td>
+                                        <td>500.00</td>
+                                        <td>500.50</td>
                                         <td><a href=""><i class="fas fa-pen text-success"></i></a>
                                             <a href=""><i class="fas fa-trash-alt icon2 text-danger"></i></a>
                                         </td>
@@ -93,6 +113,10 @@
                                         <td>0.50</td>
                                         <td>500.00</td>
                                         <td>500.50</td>
+                                        <td>500.00</td>
+                                        <td>500.50</td>
+                                        <td>500.00</td>
+                                        <td>500.50</td>
                                         <td><a href=""><i class="fas fa-pen text-success"></i></a>
                                             <a href=""><i class="fas fa-trash-alt icon2 text-danger"></i></a>
                                         </td>
@@ -102,6 +126,10 @@
                                         <td>100</td>
                                         <td>Tintes Negros</td>
                                         <td>0.50</td>
+                                        <td>500.00</td>
+                                        <td>500.50</td>
+                                        <td>500.00</td>
+                                        <td>500.50</td>
                                         <td>500.00</td>
                                         <td>500.50</td>
                                         <td><a href=""><i class="fas fa-pen text-success"></i></a>

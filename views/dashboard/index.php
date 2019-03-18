@@ -1,15 +1,19 @@
+<!--Se trae el menu lateral principal-->
 <?php
     require_once '../../core/helpers/header.php'
 ?>
 <!-- Page Content -->
 <div id="page-content-wrapper" class="bg xd">
+<!--Se trae el menu del contenido-->
     <?php
         require_once '../../core/helpers/navcontainer.php'
     ?>
+    <!--Inicio del contenido-->
     <div class="size-completo">
         <div class="container-fluid bg-content ">
             <div class="row content-card">
                 <div class="col-sm-4">
+                <!--Card que contiene la informacion de los clientes-->
                     <div class="card">
                         <div class="card-body">
                             <div class="row">
@@ -28,6 +32,7 @@
                     </div>
                 </div>
                 <div class="col-sm-4">
+                <!--Card que contiene la informacion de las ventas-->
                     <div class="card">
                         <div class="card-body">
                             <div class="row">
@@ -46,6 +51,7 @@
                     </div>
                 </div>
                 <div class="col-sm-4">
+                <!--Card que contiene informacion de compras-->
                     <div class="card">
                         <div class="card-body">
                             <div class="row">
@@ -65,6 +71,7 @@
                 </div>
             </div>
         </div>
+        <!---->
         <h2 class="text">Lista de Trabajos pendientes</h2>
 
         <div class="list-group group-task">

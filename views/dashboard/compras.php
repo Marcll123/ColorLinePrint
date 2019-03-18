@@ -1,6 +1,4 @@
-<?php
-    require_once '../../core/helpers/header.php'
-?>
+<!--Se trae desde  helpers el menu del programa con php-->
 <?php
     require_once '../../core/helpers/header.php'
 ?>
@@ -9,13 +7,17 @@
     <?php
         require_once '../../core/helpers/navcontainer.php'
     ?>
+    <!--Inicio del contenedor donde ira la informacion de cada modulo-->
     <div class="size-completo">
         <div class="container-fluid bg-content ">
+            <!--Titulo del contenido-->
             <div class="card card-margen">
                 <div class="card-body">
                     <h5 class="text-primary text-center">COMPRAS</h5>
                 </div>
             </div>
+            <!--Inicio del formulario que contiene todos los campos nesesarios para efectuar 
+            la compra contando con las funciones principales-->
             <form action="">
                 <div class="row">
                     <div class="col-9">
@@ -94,7 +96,6 @@
                                 <input type="text" id="corelativoa" class="form-control">
                             </div>
                         </div>
-
                     </div>
                     <div class="col">
                         <div class="card card-margen">
@@ -153,7 +154,7 @@
 </div>
 <!-- /#page-content-wrapper -->
 </div>
-
+<!--Se traen todos los scrips nesesarios-->
 <?php 
     require_once '../../core/helpers/footer.php'
 ?>

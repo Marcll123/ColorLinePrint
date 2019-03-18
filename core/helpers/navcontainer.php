@@ -1,3 +1,5 @@
+<!--Es la barra del menu superior que se encuentra dentro del
+contenido-->
  <nav class="navbar navbar-expand-lg navbar-light  border-bottom
               nav-size">
      <i class="fa fa-bars text-primary" id="menu-toggle"></i>
