@@ -2,7 +2,8 @@
 contenido-->
  <nav class="navbar navbar-expand-lg navbar-light  border-bottom
               nav-size">
-     <i class="fa fa-bars text-primary" id="menu-toggle"></i>
+     <img src="../../resources/img/boton.png" id="menu-toggle"></img>
+
 
 
 

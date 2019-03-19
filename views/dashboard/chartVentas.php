@@ -20,7 +20,7 @@
                     <div class="col-6">
                         <div class="card card-margen">
                             <div class="card-body">
-                                <h4 class="text-center text-primary">ventas al mes </h4>
+                                <h4 class="text-center text-primary">Ventas al mes </h4>
                                 <canvas id="myChart3"></canvas>
                                 
                             </div>   

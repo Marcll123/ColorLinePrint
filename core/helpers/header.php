@@ -6,11 +6,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link href="../../resources/css/simple-sidebar.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
-        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link type="text/css" rel="stylesheet" href="../../resources/css/bootstrap.min.css" media="screen,projection">
+    <link type="text/css" href="../../resources/css/simple-sidebar.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../resources/css/all.min.css">
+
     <link rel="stylesheet" href="../../resources/css/style.css">
     <link rel="icon" href="../../resources/img/logo/favicon.PNG">
     <title>ColorLine</title>
@@ -34,9 +33,11 @@ inglues el manejo de usuarios, manejo de ventas, manejo de compras y sus adminis
                     class="list-group-item list-group-item-action bg-white text-dark">Usuarios <i
                         class="fas fa-angle-down iconp text-primary"></i></a>
                 <div id="userData" class="collapse">
-                    <a href="../../views/dashboard/Users.php" class="list-group-item list-group-item-action bg-white text-dark"><i
+                    <a href="../../views/dashboard/Users.php"
+                        class="list-group-item list-group-item-action bg-white text-dark"><i
                             class="fas fa-user iconol2 text-primary"></i>Administrar usuarios</a>
-                    <a href="../../views/dashboard/Enterprises.php" class="list-group-item list-group-item-action bg-white text-dark"><i
+                    <a href="../../views/dashboard/Enterprises.php"
+                        class="list-group-item list-group-item-action bg-white text-dark"><i
                             class="fas fa-users-cog iconoli text-success"></i> Administrar empresas</a>
                 </div>
                 <!--Aprtado de compras cuenta con toda administracion-->
@@ -50,7 +51,8 @@ inglues el manejo de usuarios, manejo de ventas, manejo de compras y sus adminis
                     <a href="../../views/dashboard/detallecompras.php"
                         class="list-group-item list-group-item-action bg-white text-dark"><i
                             class="fas fa-shopping-cart iconoli text-primary"></i>Gestión compras</a>
-                    <a href="../../views/dashboard/inventory.php" class="list-group-item list-group-item-action bg-white text-dark"><i
+                    <a href="../../views/dashboard/inventory.php"
+                        class="list-group-item list-group-item-action bg-white text-dark"><i
                             class="fas fa-warehouse iconoli text-danger"></i>Inventario</a>
                 </div>
                 <!--Apartado de ventas cuenata con todo los detalle de administracion de esta-->
@@ -67,23 +69,27 @@ inglues el manejo de usuarios, manejo de ventas, manejo de compras y sus adminis
                 </div>
 
                 <a href="#userchart" data-toggle="collapse"
-                class="list-group-item list-group-item-action bg-white text-dark">Graficas<i
-                    class="fas fa-angle-down iconp2 text-primary"></i></a>
-            <div id="userchart" class="collapse">
-                <a href="../../views/dashboard/chartCompra.php" class="list-group-item list-group-item-action bg-white text-dark"><i
-                        class="fas fa-chart-pie iconol2 text-primary"></i>Compras</a>
-                <a href="../../views/dashboard/chartVentas.php" class="list-group-item list-group-item-action bg-white text-dark"><i
-                        class="fas fa-chart-line iconoli text-success"></i>Ventas</a>
-            </div>
+                    class="list-group-item list-group-item-action bg-white text-dark">Graficas<i
+                        class="fas fa-angle-down iconp4 text-primary"></i></a>
+                <div id="userchart" class="collapse">
+                    <a href="../../views/dashboard/chartCompra.php"
+                        class="list-group-item list-group-item-action bg-white text-dark"><i
+                            class="fas fa-chart-pie iconol2 text-primary"></i>Compras</a>
+                    <a href="../../views/dashboard/chartVentas.php"
+                        class="list-group-item list-group-item-action bg-white text-dark"><i
+                            class="fas fa-chart-line iconoli text-success espacio"></i>Ventas</a>
+                </div>
                 <!--Ajustes son cuestiones del manejo de la cuenta personal de los usuarios del
                  sistema-->
                 <a href="#ajustesData" data-toggle="collapse"
                     class="list-group-item list-group-item-action bg-white text-dark">Ajustes<i
                         class="fas fa-angle-down iconp3 text-primary"></i></a>
                 <div id="ajustesData" class="collapse">
-                    <a href="../../views/dashboard/settings.php" class="list-group-item list-group-item-action bg-white text-dark bg-light"><i
+                    <a href="../../views/dashboard/settings.php"
+                        class="list-group-item list-group-item-action bg-white text-dark bg-light"><i
                             class="fas fa-user-cog iconoli text-danger"></i>Mi perfil</a>
-                    <a href="../../views/dashboard/notes.php" class="list-group-item list-group-item-action bg-white text-dark"><i
+                    <a href="../../views/dashboard/notes.php"
+                        class="list-group-item list-group-item-action bg-white text-dark"><i
                             class="fas fa-sticky-note iconoli text-primary"></i>Notas</a>
                 </div>
             </div>

@@ -11,14 +11,20 @@
 .icolor{
     color: black;
 }
+.espacio{
+    margin-right: 1em;
+}
 .iconp{
     margin-left: 7em;
 }
 .iconp2{
-    margin-left: 7em;
+    margin-left: 7.1em;
+}
+.iconp4{
+    margin-left: 7.7em;
 }
 .iconp3{
-    margin-left: 8em;
+    margin-left: 8.2em;
 }
 .logo{
     height: 2em;
