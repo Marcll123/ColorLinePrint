@@ -65,6 +65,16 @@ inglues el manejo de usuarios, manejo de ventas, manejo de compras y sus adminis
                         class="list-group-item list-group-item-action bg-white text-dark"><i
                             class="fas fa-tasks iconoli text-warning"></i>Detalle de ventas</a>
                 </div>
+
+                <a href="#userchart" data-toggle="collapse"
+                class="list-group-item list-group-item-action bg-white text-dark">Graficas<i
+                    class="fas fa-angle-down iconp2 text-primary"></i></a>
+            <div id="userchart" class="collapse">
+                <a href="../../views/dashboard/chartCompra.php" class="list-group-item list-group-item-action bg-white text-dark"><i
+                        class="fas fa-chart-pie iconol2 text-primary"></i>Compras</a>
+                <a href="../../views/dashboard/chartVentas.php" class="list-group-item list-group-item-action bg-white text-dark"><i
+                        class="fas fa-chart-line iconoli text-success"></i>Ventas</a>
+            </div>
                 <!--Ajustes son cuestiones del manejo de la cuenta personal de los usuarios del
                  sistema-->
                 <a href="#ajustesData" data-toggle="collapse"
