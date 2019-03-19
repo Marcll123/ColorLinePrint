@@ -65,7 +65,7 @@
                                     </div>
                                 </form>
                             <!-- Tabla con todos los usuarios-->
-                            <table class="table table-striped table-responsive-sm ">
+                            <table class="table table-responsive-sm ">
                                 <thead class="bg-primary text-white">
                                     <tr>
                                     <th scope="col">Id</th>

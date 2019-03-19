@@ -50,7 +50,7 @@ inglues el manejo de usuarios, manejo de ventas, manejo de compras y sus adminis
                     <a href="../../views/dashboard/detallecompras.php"
                         class="list-group-item list-group-item-action bg-white text-dark"><i
                             class="fas fa-shopping-cart iconoli text-primary"></i>Gestión compras</a>
-                    <a href="#" class="list-group-item list-group-item-action bg-white text-dark"><i
+                    <a href="../../views/dashboard/inventory.php" class="list-group-item list-group-item-action bg-white text-dark"><i
                             class="fas fa-warehouse iconoli text-danger"></i>Inventario</a>
                 </div>
                 <!--Apartado de ventas cuenata con todo los detalle de administracion de esta-->

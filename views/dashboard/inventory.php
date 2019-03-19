@@ -1,7 +1,4 @@
-<!--Se trae desde  helpers el menu del programa con php-->
-<?php
-    require_once '../../core/helpers/header.php'
-?>
+<!-- Se manda a llamar el header-->
 <?php
     require_once '../../core/helpers/header.php'
 ?>
@@ -12,17 +9,12 @@
     ?>
     <div class="size-completo">
         <div class="container-fluid bg-content ">
-            <div class="row">
-                <div class="col-12">
-                    <div class="card card-margen">
-                        <div class="card-body">
-                            <h5 class="text-primary text-center">DETALLE VENTAS</h5>
-                        </div>
-                    </div>
+            <div class="card card-margen">
+                <div class="card-body">
+                    <h5 class="text-primary text-center">INVENTARIO PRODUCTOS</h5>
                 </div>
-                <!-- Buscador de la tabla-->
-                <div class="col-12">
-                    <div class="card card-margen">
+            </div>
+            <div class="card card-margen">
                         <div class="card-body">
                             <nav class="navbar navbar-white bg-white">
                                 <form class="form-inline">
@@ -31,21 +23,17 @@
                                     <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Buscar</button>
                                 </form>
                             </nav>
-                            <!--Se crea la tabla con todos los datos registrados de las ventas-->
+                            <!--Se crea la tabla con todos los datos registrados de las compras-->
                             <table class="table table-responsive-sm">
                                 <thead class="bg-primary text-white">
                                     <tr>
-                                        <th scope="col">Card producto</th>
-                                        <th scope="col">UMD</th>
+                                        <th scope="col">Codigo</th>
                                         <th scope="col">Cantidad</th>
-                                        <th scope="col">Descuento</th>
-                                        <th scope="col">T/P</th>
                                         <th scope="col">Descripcion</th>
+                                        <th scope="col">Precio unitario</th>
+                                        <th scope="col">Total exento</th>
                                         <th scope="col">Total gravado</th>
-                                        <th scope="col">P/unitario</th>
-                                        <th scope="col">V/No sujeta</th>
-                                        <th scope="col">U/conversion</th>
-                                        <th scope="col">Acciones</th>
+                                        <th scope="col">acciones</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -54,10 +42,6 @@
                                         <td>100</td>
                                         <td>Tintes Negros</td>
                                         <td>0.50</td>
-                                        <td>500.00</td>
-                                        <td>500.50</td>
-                                        <td>500.00</td>
-                                        <td>500.50</td>
                                         <td>500.00</td>
                                         <td>500.50</td>
                                         <td><a href=""><i class="fas fa-pen text-success"></i></a>
@@ -71,10 +55,6 @@
                                         <td>0.50</td>
                                         <td>500.00</td>
                                         <td>500.50</td>
-                                        <td>500.00</td>
-                                        <td>500.50</td>
-                                        <td>500.00</td>
-                                        <td>500.50</td>
                                         <td><a href=""><i class="fas fa-pen text-success"></i></a>
                                             <a href=""><i class="fas fa-trash-alt icon2 text-danger"></i></a>
                                         </td>
@@ -84,10 +64,6 @@
                                         <td>100</td>
                                         <td>Tintes Negros</td>
                                         <td>0.50</td>
-                                        <td>500.00</td>
-                                        <td>500.50</td>
-                                        <td>500.00</td>
-                                        <td>500.50</td>
                                         <td>500.00</td>
                                         <td>500.50</td>
                                         <td><a href=""><i class="fas fa-pen text-success"></i></a>
@@ -101,10 +77,6 @@
                                         <td>0.50</td>
                                         <td>500.00</td>
                                         <td>500.50</td>
-                                        <td>500.00</td>
-                                        <td>500.50</td>
-                                        <td>500.00</td>
-                                        <td>500.50</td>
                                         <td><a href=""><i class="fas fa-pen text-success"></i></a>
                                             <a href=""><i class="fas fa-trash-alt icon2 text-danger"></i></a>
                                         </td>
@@ -114,10 +86,6 @@
                                         <td>100</td>
                                         <td>Tintes Negros</td>
                                         <td>0.50</td>
-                                        <td>500.00</td>
-                                        <td>500.50</td>
-                                        <td>500.00</td>
-                                        <td>500.50</td>
                                         <td>500.00</td>
                                         <td>500.50</td>
                                         <td><a href=""><i class="fas fa-pen text-success"></i></a>
@@ -131,16 +99,11 @@
                                         <td>0.50</td>
                                         <td>500.00</td>
                                         <td>500.50</td>
-                                        <td>500.00</td>
-                                        <td>500.50</td>
-                                        <td>500.00</td>
-                                        <td>500.50</td>
                                         <td><a href=""><i class="fas fa-pen text-success"></i></a>
                                             <a href=""><i class="fas fa-trash-alt icon2 text-danger"></i></a>
                                         </td>
                                     </tr>
                                 </tbody>
-                                <!-- paginacion de la tabla-->
                             </table>
                             <nav aria-label="Page navigation example ">
                                 <ul class="pagination justify-content-center">
@@ -153,11 +116,19 @@
                             </nav>
                         </div>
                     </div>
+                    <div class="col">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <button type="button" class="btn btn-primary">Realizar Filtracion</button>
+                            <!-- Realizar factura-->
+                            <button type="button" class="btn btn-danger">Realizar e imprimir</button>
+                        </div>
+                    </div>
                 </div>
-            </div>
         </div>
+        <!-- /#page-content-wrapper -->
     </div>
     <!-- Se manda a llamar el footer-->
-    <?php 
+<?php 
     require_once '../../core/helpers/footer.php'
 ?>

@@ -7,8 +7,15 @@
     <?php
         require_once '../../core/helpers/navcontainer.php'
     ?>
-    <!-- Formulario para agregar notas-->
-    <div class="card card-margen">
+    <div class="size-completo">
+        <div class="container-fluid bg-content ">
+            <!-- Formulario para agregar notas-->
+            <div class="card card-margen">
+                <div class="card-body">
+                    <h5 class="text-primary text-center">NOTAS PERSONALES</h5>
+                </div>
+            </div>
+    <div class="card">
         <div class="card-body">
             <div class="row">
                 <div class="col-sm-4">
@@ -74,9 +81,10 @@
             </div>
         </div>      
     </div>  
-       
-</div>
-<!-- Se manda a llamar el footer-->
-<?php 
+
+        </div>
+    </div>
+    <!-- Se manda a llamar el footer-->
+    <?php 
     require_once '../../core/helpers/footer.php'
-?>       
+?>

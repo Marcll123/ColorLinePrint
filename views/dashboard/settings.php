@@ -11,7 +11,7 @@
         <div class="container-fluid bg-content">
             <div class="card card-margen">
                 <div class="card-body">
-                    <h1 >Perfil</h1>
+                    <h5 class="text-primary text-center">PERFIL</h5>
                 </div>
             </div>
             <!-- Tabla con los datos de usuarios-->
