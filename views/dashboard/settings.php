@@ -1,6 +1,4 @@
-<?php
-    require_once '../../core/helpers/header.php'
-?>
+<!-- Se manda a llamar el header-->
 <?php
     require_once '../../core/helpers/header.php'
 ?>
@@ -16,6 +14,7 @@
                     <h1 >Perfil</h1>
                 </div>
             </div>
+            <!-- Tabla con los datos de usuarios-->
             <div class="card card-margen">
                 <div class="card-body">
                    <table class="table table-borderless table-responsive-sm">
@@ -66,6 +65,7 @@
             
         </div>
     </div>
+    <!-- Editar nombre-->
     <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
@@ -88,6 +88,7 @@
             </div>
         </div>
     </div>
+    <!-- Editar genero-->
     <div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
@@ -113,6 +114,7 @@
             </div>
         </div>
     </div>
+    <!-- Editar fecha de nacimiento-->
     <div class="modal fade" id="exampleModal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
@@ -134,6 +136,7 @@
             </div>
         </div>
     </div>
+    <!-- Editar nombre de usuario-->
     <div class="modal fade" id="exampleModal4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">

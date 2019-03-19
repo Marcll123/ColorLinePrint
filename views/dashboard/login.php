@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<!-- header-->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,6 +16,7 @@
 </head>
 
 <body>
+    <!-- Formulario para iniciar sesíon-->
     <div class="row">
         <div class="col-2">
 
@@ -34,6 +36,7 @@
                                 <label for="exampleInputPassword1" class="text-primary">Contraseña</label>
                                 <input type="password" class="form-control" id="exampleInputPassword1"
                                     placeholder="Contaseña">
+                            <!-- Recuperacion de contraseña-->
                             </div>
                             <a href="">¿Olvidaste tu contraseña?</a><br /><br />
                             <a href="../../views/dashboard/index.php" class="btn btn-primary btn-login">Iniciar
@@ -52,48 +55,3 @@
 </body>
 
 </html>
-
-<!--
-    <div class="contenedor-total">
-        <div class="card card-login">
-            <div class="card-body">
-                
-            
-                <h5 class="card-title text-center text-primary">Iniciar sesion</h5>
-                <form>
-                    <div class="form-group">
-                        <label for="exampleInputEmail1" class="text-primary">Correo electronico</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-                            placeholder="Correo electronico">
-                    </div>
-                    <div class="form-group">
-                        <label for="exampleInputPassword1" class="text-primary">Contraseña</label>
-                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Contaseña">
-                    </div>
-                    <a href="">¿Olvidaste tu contraseña?</a><br/><br/>
-                    <a href="../../views/dashboard/index.php" class="btn btn-primary btn-login">Iniciar sesion</a>
-                </form>
-            </div>
-        </div>
-    </div>
-
-    .card-body {
-    height: 30em;
-    padding-left: 10em;
-    padding-right: 10em;
-    padding-top: 5em;
-    padding-bottom: 5em;
-}
-
-.card-login {
-    margin-top: 5em;
-    margin-left: 18em;
-    margin-right: 18em;
-}
-
-.btn-login{
-    display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
--->

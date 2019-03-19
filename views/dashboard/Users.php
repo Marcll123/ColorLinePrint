@@ -1,6 +1,4 @@
-<?php
-    require_once '../../core/helpers/header.php'
-?>
+<!-- Se manda a llamar el header-->
 <?php
     require_once '../../core/helpers/header.php'
 ?>
@@ -16,6 +14,7 @@
                     <h5 class="text-primary text-center">USUARIOS</h5>
                  </div>
             </div>
+                <!-- Formulario para agregar usuarios-->
                 <div class="card">
                     <div class="card-body">
                         <div class="row">
@@ -45,6 +44,7 @@
                         </div>
                     </div>
                 </div>
+                    <!-- Boton de confirmacion para agregar usuarios-->
                     <div class="col">
                         <div class="card card-margen">
                             <div class="card-body text-center">
@@ -64,6 +64,7 @@
                                         </div>
                                     </div>
                                 </form>
+                            <!-- Tabla con todos los usuarios-->
                             <table class="table table-striped table-responsive-sm ">
                                 <thead class="bg-primary text-white">
                                     <tr>
@@ -104,6 +105,7 @@
                    
         </div>
     </div>
+    <!-- Formulario para eliminar usuarios-->
     <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">

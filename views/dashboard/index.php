@@ -71,7 +71,7 @@
                 </div>
             </div>
         </div>
-        <!---->
+        <!-- Lista de trabajos para elaborar y sus estados-->
         <h2 class="text">Lista de Trabajos pendientes</h2>
 
         <div class="list-group group-task">

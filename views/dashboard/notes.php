@@ -1,6 +1,4 @@
-<?php
-    require_once '../../core/helpers/header.php'
-?>
+<!-- Se manda a llamar el header-->
 <?php
     require_once '../../core/helpers/header.php'
 ?>
@@ -9,6 +7,7 @@
     <?php
         require_once '../../core/helpers/navcontainer.php'
     ?>
+    <!-- Formulario para agregar notas-->
     <div class="card card-margen">
         <div class="card-body">
             <div class="row">
@@ -21,6 +20,7 @@
                         </div>
                     </div>
                 </div>
+                <!-- Notas agregadas-->
                 <div class="col-sm-4">
                     <div class="card border-danger card-margen">
                         <div class="card-body">
@@ -76,6 +76,7 @@
     </div>  
        
 </div>
+<!-- Se manda a llamar el footer-->
 <?php 
     require_once '../../core/helpers/footer.php'
 ?>       
