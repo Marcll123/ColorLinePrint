@@ -20,11 +20,11 @@
             la compra contando con las funciones principales-->
             <form action="">
                 <div class="row">
-                    <div class="col-9">
+                    <div class="col-sm-12 col-md-12 col-lg-9">
                         <div class="card">
                             <div class="card-body">
                                 <div class="row">
-                                    <div class="col-6">
+                                    <div class="form-group col-sm-12 col-md-12 col-lg-6 ">
                                         <label for="corelativoa"> Correlativo asignado:</label>
                                         <input type="text" id="corelativoa" class="form-control">
                                         <label for="numerodocumento"> Numero de documentos:</label>
@@ -42,7 +42,7 @@
                                             <option>Compra</option>
                                         </select>
                                     </div>
-                                    <div class="col-6">
+                                    <div class="form-group col-sm-12 col-md-12 col-lg-6 ">
                                         <label for="seriedocto"> Serie del docto:</label>
                                         <input type="text" id="seriedocto" class="form-control">
                                         <label for="fechac"> Fecha de compra:</label>
@@ -81,7 +81,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-3">
+                    <div class="col-sm-12 col-md-12 col-lg-3">
                         <div class="card">
                             <div class="card-body">
                                 <label for="corelativoa"> N registro</label>
@@ -102,7 +102,7 @@
                             <div class="card-body">
                                 <div class="row">
 
-                                    <div class="col-5">
+                                    <div class="col-sm-12 col-md-12 col-lg-5 ">
                                         <label for="corelativoa"> Codigo producto:</label>
                                         <input type="text" id="corelativoa" class="form-control">
                                         <label for="corelativoa"> Cantidad:</label>
@@ -110,7 +110,7 @@
                                         <label for="corelativoa"> Descripción:</label>
                                         <input type="text" id="corelativoa" class="form-control">
                                     </div>
-                                    <div class="col-5">
+                                    <div class="col-sm-12 col-md-12 col-lg-5">
                                         <label for="corelativoa">Precio Unitario:</label>
                                         <input type="text" id="corelativoa" class="form-control">
                                         <label for="corelativoa"> Total Exento:</label>
@@ -118,7 +118,7 @@
                                         <label for="corelativoa">Total gravado:</label>
                                         <input type="text" id="corelativoa" class="form-control">
                                     </div>
-                                    <div class="col-2">
+                                    <div class="col-sm-12 col-md-12 col-lg-2 ">
 
                                         <label for="corelativoa">Sub Total:</label>
                                         <input type="text" id="corelativoa" class="form-control">
@@ -137,13 +137,21 @@
                         </div>
                     </div>
                 </div>
-
-                <div class="col">
-                    <div class="card">
-                        <div class="card-body text-center">
-                            <button type="button" class="btn btn-primary">Realizar Acción </button>
-                            <button type="button" class="btn btn-danger">Aplicar al Inventario</button>
-                            <button type="button" class="btn btn-warning">Revertir Aplicación</button>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="card">
+                            <div class="card-body text-center">
+                                <div class="row">
+                                    <div class="col-sm-12 col-md-12 col-lg-4">
+                                        <button type="button" class="btn btn-primary btn-block">Realizar Acción
+                                        </button></div>
+                                    <div class="col-sm-12 col-md-12 col-lg-4">
+                                        <button type="button" class="btn btn-danger btn-block">Aplicar al
+                                            Inventario</button> </div>
+                                    <div class="col-sm-12 col-md-12 col-lg-4"> <button type="button"
+                                            class="btn btn-warning btn-block">Revertir Aplicación</button></div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>

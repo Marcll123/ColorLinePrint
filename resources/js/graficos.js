@@ -1,5 +1,6 @@
-var ctx = document.getElementById('myChart').getContext('2d');
-var chart = new Chart(ctx, {
+
+let ctx = document.getElementById('myChart').getContext('2d');
+let chart = new Chart(ctx, {
     // el tipo de grafico que queremos
     type: 'line',
 
@@ -20,8 +21,8 @@ var chart = new Chart(ctx, {
 
 
 
-var ctx = document.getElementById('myChart2').getContext('2d');
-var chart = new Chart(ctx, {
+let ctx = document.getElementById('myChart2').getContext('2d');
+let chart = new Chart(ctx, {
     // el tipo de grafico que queremos
     type: 'bar',
 
@@ -39,8 +40,8 @@ var chart = new Chart(ctx, {
    
     options: {}
 });
-var ctx = document.getElementById('myChart3').getContext('2d');
-var chart = new Chart(ctx, {
+let ctx = document.getElementById('myChart3').getContext('2d');
+let chart = new Chart(ctx, {
     // el tipo de grafico que queremos
     type: 'bar',
 
@@ -61,8 +62,8 @@ var chart = new Chart(ctx, {
 
 
 
-var ctx = document.getElementById('myChart4').getContext('2d');
-var chart = new Chart(ctx, {
+let ctx = document.getElementById('myChart4').getContext('2d');
+let chart = new Chart(ctx, {
     // el tipo de grafico que queremos
     type: 'line',
 

@@ -74,4 +74,14 @@
 .icon2{
     margin-left: 1rem;
 }
-
+.hover{
+    color: #363636;
+}
+.hover:hover{
+    color: #0490F7;
+}
+.diseño{
+    width: 200px; 
+    margin-top: 1em;
+    margin-bottom: 1em;
+}

@@ -60,8 +60,10 @@
                                         <td>500.50</td>
                                         <td>500.00</td>
                                         <td>500.50</td>
-                                        <td><a href=""><i class="fas fa-pen text-success"></i></a>
-                                            <a href=""><i class="fas fa-trash-alt icon2 text-danger"></i></a>
+                                        <td><a data-toggle="modal" data-target="#editmodal"><i
+                                                    class="fas fa-pen text-success"></i></a>
+                                            <a data-toggle="modal" data-target="#exampleModal"><i
+                                                    class="fas fa-trash-alt icon2 text-danger"></i></a>
                                         </td>
                                     </tr>
                                     <tr>
@@ -75,8 +77,10 @@
                                         <td>500.50</td>
                                         <td>500.00</td>
                                         <td>500.50</td>
-                                        <td><a href=""><i class="fas fa-pen text-success"></i></a>
-                                            <a href=""><i class="fas fa-trash-alt icon2 text-danger"></i></a>
+                                        <td><a data-toggle="modal" data-target="#editmodal"><i
+                                                    class="fas fa-pen text-success"></i></a>
+                                            <a data-toggle="modal" data-target="#exampleModal"><i
+                                                    class="fas fa-trash-alt icon2 text-danger"></i></a>
                                         </td>
                                     </tr>
                                     <tr>
@@ -90,8 +94,10 @@
                                         <td>500.50</td>
                                         <td>500.00</td>
                                         <td>500.50</td>
-                                        <td><a href=""><i class="fas fa-pen text-success"></i></a>
-                                            <a href=""><i class="fas fa-trash-alt icon2 text-danger"></i></a>
+                                        <td><a data-toggle="modal" data-target="#editmodal"><i
+                                                    class="fas fa-pen text-success"></i></a>
+                                            <a data-toggle="modal" data-target="#exampleModal"><i
+                                                    class="fas fa-trash-alt icon2 text-danger"></i></a>
                                         </td>
                                     </tr>
                                     <tr>
@@ -105,8 +111,10 @@
                                         <td>500.50</td>
                                         <td>500.00</td>
                                         <td>500.50</td>
-                                        <td><a href=""><i class="fas fa-pen text-success"></i></a>
-                                            <a href=""><i class="fas fa-trash-alt icon2 text-danger"></i></a>
+                                        <td><a data-toggle="modal" data-target="#editmodal"><i
+                                                    class="fas fa-pen text-success"></i></a>
+                                            <a data-toggle="modal" data-target="#exampleModal"><i
+                                                    class="fas fa-trash-alt icon2 text-danger"></i></a>
                                         </td>
                                     </tr>
                                     <tr>
@@ -120,8 +128,10 @@
                                         <td>500.50</td>
                                         <td>500.00</td>
                                         <td>500.50</td>
-                                        <td><a href=""><i class="fas fa-pen text-success"></i></a>
-                                            <a href=""><i class="fas fa-trash-alt icon2 text-danger"></i></a>
+                                        <td><a data-toggle="modal" data-target="#editmodal"><i
+                                                    class="fas fa-pen text-success"></i></a>
+                                            <a data-toggle="modal" data-target="#exampleModal"><i
+                                                    class="fas fa-trash-alt icon2 text-danger"></i></a>
                                         </td>
                                     </tr>
                                     <tr>
@@ -135,8 +145,10 @@
                                         <td>500.50</td>
                                         <td>500.00</td>
                                         <td>500.50</td>
-                                        <td><a href=""><i class="fas fa-pen text-success"></i></a>
-                                            <a href=""><i class="fas fa-trash-alt icon2 text-danger"></i></a>
+                                        <td><a data-toggle="modal" data-target="#editmodal"><i
+                                                    class="fas fa-pen text-success"></i></a>
+                                            <a data-toggle="modal" data-target="#exampleModal"><i
+                                                    class="fas fa-trash-alt icon2 text-danger"></i></a>
                                         </td>
                                     </tr>
                                 </tbody>
@@ -155,9 +167,80 @@
                     </div>
                 </div>
             </div>
+            <!-- Formulario para eliminar compra-->
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Eliminar Venta</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            ¿Estas seguro que quieres eliminar esta venta?
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+                            <button type="button" class="btn btn-primary">Eliminiar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" id="editmodal" tabindex="-1" role="dialog" aria-labelledby="editModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Editar Venta</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <form action="">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <label for="corelativoa"> Card producto:</label>
+                                        <input type="text" id="card" class="form-control">
+                                        <label for="corelativoa"> UMD:</label>
+                                        <input type="text" id="umd" class="form-control">
+                                        <label for="corelativoa"> Cantidad:</label>
+                                        <input type="text" id="cantidad" class="form-control">
+                                        <label for="corelativoa"> Descuento:</label>
+                                        <input type="text" id="descuento" class="form-control">
+                                        <label for="corelativoa"> V/No sujeta:</label>
+                                        <input type="text" id="vnosu" class="form-control">
+                                        <label for="corelativoa"> V/efecta:</label>
+                                        <input type="text" id="vefecta" class="form-control">
+                                        <label for="corelativoa">T/P:</label>
+                                        <input type="text" id="tp" class="form-control">
+                                        <label for="corelativoa"> Descripción:</label>
+                                        <input type="text" id="descrip" class="form-control">
+                                        <label for="corelativoa">Total gravado:</label>
+                                        <input type="text" id="totalgra" class="form-control">
+                                        <label for="corelativoa">P/unitario:</label>
+                                        <input type="text" id="punitario" class="form-control">
+                                        <label for="corelativoa"> V/exenta:</label>
+                                        <input type="text" id="vexenta" class="form-control">
+                                        <label for="corelativoa"> U/conversion:</label>
+                                        <input type="text" id="uconversion" class="form-control">
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+                            <button type="button" class="btn btn-primary">Realizar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-    <!-- Se manda a llamar el footer-->
-    <?php 
+</div>
+<!-- Se manda a llamar el footer-->
+<?php 
     require_once '../../core/helpers/footer.php'
 ?>

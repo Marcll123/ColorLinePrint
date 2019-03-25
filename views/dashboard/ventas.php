@@ -18,12 +18,12 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-9">
+                    <div class="col-sm-12 col-md-12 col-lg-9">
                         <div class="card">
                             <div class="card-body">
                                 <!-- Formulario para las ventas-->
                                 <div class="row">
-                                    <div class="col-6">
+                                    <div class="col-sm-12 col-md-12 col-lg-6">
                                         <label for="sucursal"> Sucursal :</label>
                                         <select id="sucursal" class="form-control form-control-sm">
                                             <option>Origen</option>
@@ -34,7 +34,7 @@
                                             <option>Tikets</option>
                                             <option>Factura consumidor final</option>
                                             <option>Factura exportación</option>
-                                            <option>Nota de  crédito</option>
+                                            <option>Nota de crédito</option>
                                             <option>Nota de debito</option>
                                             <option>Factura de devolución</option>
                                         </select>
@@ -43,7 +43,7 @@
                                         <label for="direccionventas"> Dirección:</label>
                                         <input type="text" id="direccionventas" class="form-control">
                                     </div>
-                                    <div class="col-6">
+                                    <div class="col-sm-12 col-md-12 col-lg-6">
                                         <label for="puntoV"> Punto de venta:</label>
                                         <select id="puntoV" class="form-control form-control-sm">
                                             <option>Oficina</option>
@@ -99,7 +99,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-3">
+                    <div class="col-sm-12 col-md-12 col-lg-3">
                         <div class="card">
                             <div class="card-body">
                                 <label for="corelativoa"> N registro</label>
@@ -120,12 +120,12 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="col-sm-12 col-md-12 col-lg-12">
                         <div class="card card-margen">
                             <div class="card-body">
                                 <div class="row">
                                     <!-- formulario ventas-->
-                                    <div class="col-5">
+                                    <div class="col-sm-12 col-md-12 col-lg-5">
                                         <label for="corelativoa"> Card producto:</label>
                                         <input type="text" id="card" class="form-control">
                                         <label for="corelativoa"> UMD:</label>
@@ -139,8 +139,8 @@
                                         <label for="corelativoa"> V/efecta:</label>
                                         <input type="text" id="vefecta" class="form-control">
                                     </div>
-                                    
-                                    <div class="col-5">
+
+                                    <div class="col-sm-12 col-md-12 col-lg-5">
                                         <label for="corelativoa">T/P:</label>
                                         <input type="text" id="tp" class="form-control">
                                         <label for="corelativoa"> Descripción:</label>
@@ -155,7 +155,7 @@
                                         <input type="text" id="uconversion" class="form-control">
                                     </div>
                                     <!-- Formulario para los impuestos-->
-                                    <div class="col-2">
+                                    <div class="col-sm-12 col-md-12 col-lg-2">
 
                                         <label for="corelativoa">Sub Total:</label>
                                         <input type="text" id="subtotal" class="form-control">
@@ -175,12 +175,20 @@
                     </div>
                 </div>
                 <!-- confirmacion para realizar venta-->
-                <div class="col">
-                    <div class="card">
-                        <div class="card-body text-center">
-                            <button type="button" class="btn btn-primary">Realizar áccion</button>
-                            <!-- Realizar factura-->
-                            <button type="button" class="btn btn-danger">Realizar e imprimir</button>
+                <div class="row">
+                    <div class="col">
+                        <div class="card">
+                            <div class="card-body text-center">
+                             <div class="row">
+                             <div class="col-sm-12 col-md-12 col-lg-6">
+                                    <button type="button" class="btn btn-primary btn-block">Realizar áccion</button>
+                                </div>
+                                <!-- Realizar factura-->
+                                <div class="col-sm-12 col-md-12 col-lg-6">
+                                    <button type="button" class="btn btn-danger btn-block">Realizar e imprimir</button>
+                                </div> 
+                             </div>
+                            </div>
                         </div>
                     </div>
                 </div>
