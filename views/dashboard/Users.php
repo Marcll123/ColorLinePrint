@@ -60,9 +60,92 @@
                     </div>
                 </div>
             </form>
+            <div class="row">
+                <div class="col-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <nav class="navbar navbar-white bg-white">
+                                <form class="form-inline">
+                                    <input class="form-control mr-sm-2" type="search" placeholder="Buscar"
+                                        aria-label="Buscar">
+                                    <button class="btn btn-outline-primary my-2 my-sm-2" type="submit">Buscar</button>
+                                </form>
+                            </nav>
+                            <!--Se crea la tabla con todos los datos registrados de las compras-->
+                            <table class="table table-responsive-sm">
+                                <thead class="bg-primary text-white">
+                                    <tr>
+                                        <th scope="col">Codigo</th>
+                                        <th scope="col">Nombre</th>
+                                        <th scope="col">Apellido</th>
+                                        <th scope="col">Genero</th>
+                                        <th scope="col">Fecha de nacimiento</th>
+                                        <th scope="col">Usuario</th>
+                                        <th scope="col">Correo</th>
+                                        <th scope="col">Contraseña</th>
+                                        <th scope="col">Tipo</th>
+                                        <th scope="col">acciones</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">1</th>
+                                        <td>Miguel</td>
+                                        <td>Gonzales</td>
+                                        <td>Marculino</td>
+                                        <td>04/09/2001</td>
+                                        <td>Brei</td>
+                                        <td>123</td>
+                                        <td>2</td>
+                                        <td><a data-toggle="modal" data-target="#editmodal"><i
+                                                    class="fas fa-pen text-success"></i></a>
+                                            <a data-toggle="modal" data-target="#exampleModal"><i
+                                                    class="fas fa-trash-alt icon2 text-danger"></i></a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">2</th>
+                                        <td>Miguel</td>
+                                        <td>Gonzales</td>
+                                        <td>Marculino</td>
+                                        <td>04/09/2001</td>
+                                        <td>Brei</td>
+                                        <td>123</td>
+                                        <td>2</td>
+                                        <td><a data-toggle="modal" data-target="#editmodal"><i
+                                                    class="fas fa-pen text-success"></i></a>
+                                            <a data-toggle="modal" data-target="#exampleModal"><i
+                                                    class="fas fa-trash-alt icon2 text-danger"></i></a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">3</th>
+                                        <td>Miguel</td>
+                                        <td>Gonzales</td>
+                                        <td>Marculino</td>
+                                        <td>04/09/2001</td>
+                                        <td>Brei</td>
+                                        <td>123</td>
+                                        <td>2</td>
+                                        <td><a data-toggle="modal" data-target="#editmodal"><i
+                                                    class="fas fa-pen text-success"></i></a>
+                                            <a data-toggle="modal" data-target="#exampleModal"><i
+                                                    class="fas fa-trash-alt icon2 text-danger"></i></a>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
 
+
+
     </div>
+
+
     <!-- Formulario para eliminar usuarios-->
     <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
         aria-hidden="true">

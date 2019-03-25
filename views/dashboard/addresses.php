@@ -1,3 +1,4 @@
+<!-- Se manda a llamar el header-->
 <?php
     require_once '../../core/helpers/header.php'
 ?>
@@ -48,19 +49,20 @@
                                             <button type="button" class="btn btn-outline-primary mx-auto diseño"
                                                 data-toggle="modal" data-target="#addmodal2">Agregar</button>
                                         </div>
+                                        <!-- Se crea la tabla-->
                                         <div class="col-12">
                                             <table class="table table-responsive-sm">
                                                 <thead class="bg-primary text-white">
                                                     <tr>
-                                                        <th scope="col">Codigo</th>
+                                                        <th scope="col">Código</th>
                                                         <th scope="col">Departamento</th>
-                                                        <th scope="col">acciones</th>
+                                                        <th scope="col">Ácciones</th>
                                                     </tr>
                                                 </thead>
                                                 <tbody>
                                                     <tr>
                                                         <th scope="row">1</th>
-                                                        <td>San salvador</td>
+                                                        <td>San Salvador</td>
                                                         <td><a data-toggle="modal" data-target="#editmodal2"><i
                                                                     class="fas fa-pen text-success"></i></a>
                                                             <a data-toggle="modal" data-target="#exampleModal2"><i
@@ -69,7 +71,7 @@
                                                     </tr>
                                                     <tr>
                                                         <th scope="row">1</th>
-                                                        <td>San salvador</td>
+                                                        <td>San Salvador</td>
                                                         <td><a data-toggle="modal" data-target="#editmodal2"><i
                                                                     class="fas fa-pen text-success"></i></a>
                                                             <a data-toggle="modal" data-target="#exampleModal2"><i
@@ -78,7 +80,7 @@
                                                     </tr>
                                                     <tr>
                                                         <th scope="row">1</th>
-                                                        <td>San salvador</td>
+                                                        <td>San Salvador</td>
                                                         <td><a data-toggle="modal" data-target="#editmodal2"><i
                                                                     class="fas fa-pen text-success"></i></a>
                                                             <a data-toggle="modal" data-target="#exampleModal2"><i
@@ -87,7 +89,7 @@
                                                     </tr>
                                                     <tr>
                                                         <th scope="row">1</th>
-                                                        <td>San salvador</td>
+                                                        <td>San Salvador</td>
                                                         <td><a data-toggle="modal" data-target="#editmodal2"><i
                                                                     class="fas fa-pen text-success"></i></a>
                                                             <a data-toggle="modal" data-target="#exampleModal2"><i
@@ -96,7 +98,7 @@
                                                     </tr>
                                                     <tr>
                                                         <th scope="row">1</th>
-                                                        <td>San salvador</td>
+                                                        <td>San Salvador</td>
                                                         <td><a data-toggle="modal" data-target="#editmodal2"><i
                                                                     class="fas fa-pen text-success"></i></a>
                                                             <a data-toggle="modal" data-target="#exampleModal2"><i
@@ -105,7 +107,7 @@
                                                     </tr>
                                                     <tr>
                                                         <th scope="row">1</th>
-                                                        <td>San salvador</td>
+                                                        <td>San Salvador</td>
                                                         <td><a data-toggle="modal" data-target="#editmodal2"><i
                                                                     class="fas fa-pen text-success"></i></a>
                                                             <a data-toggle="modal" data-target="#exampleModal2"><i
@@ -114,6 +116,7 @@
                                                     </tr>
                                                 </tbody>
                                             </table>
+                                            <!-- Menu para eliminar departamentos-->
                                             <div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog"
                                                 aria-labelledby="exampleModalLabel" aria-hidden="true">
                                                 <div class="modal-dialog modal-dialog-centered" role="document">
@@ -126,8 +129,9 @@
                                                                 <span aria-hidden="true">&times;</span>
                                                             </button>
                                                         </div>
+                                                        <!-- boton de confirmacion-->
                                                         <div class="modal-body">
-                                                            ¿Estas seguro que quieres eliminar este departamento?
+                                                            ¿Éstas seguro que quieres eliminar este departamento?
                                                         </div>
                                                         <div class="modal-footer">
                                                             <button type="button" class="btn btn-secondary"
@@ -155,7 +159,7 @@
                                                             <form action="">
                                                                 <div class="row">
                                                                     <div class="col-12">
-                                                                        <label for="corelativoa"> Codigo
+                                                                        <label for="corelativoa"> Código
                                                                             producto:</label>
                                                                         <input type="text" id="corelativoa"
                                                                             class="form-control">
@@ -192,7 +196,7 @@
                                                             <form action="">
                                                                 <div class="row">
                                                                     <div class="col-12">
-                                                                        <label for="corelativoa"> Codigo</label>
+                                                                        <label for="corelativoa"> Código</label>
                                                                         <input type="text" id="corelativoa"
                                                                             class="form-control">
                                                                         <label for="corelativoa"> Departamento:</label>
@@ -251,17 +255,37 @@
                                     <table class="table table-responsive-sm">
                                         <thead class="bg-primary text-white">
                                             <tr>
-                                                <th scope="col">Codigo</th>
+                                                <th scope="col">Código</th>
                                                 <th scope="col">Municipio</th>
-                                                <th scope="col">Codigo D</th>
-                                                <th scope="col">acciones</th>
+                                                <th scope="col">Código D</th>
+                                                <th scope="col">Ácciones</th>
                                             </tr>
                                         </thead>
                                         <tbody>
                                             <tr>
                                                 <th scope="row">1</th>
                                                 <td>San Marcos</td>
-                                                <td>San salvador</td>
+                                                <td>San Salvador</td>
+                                                <td><a data-toggle="modal" data-target="#editmodal"><i
+                                                            class="fas fa-pen text-success"></i></a>
+                                                    <a data-toggle="modal" data-target="#exampleModal"><i
+                                                            class="fas fa-trash-alt icon2 text-danger"></i></a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">1</th>
+                                                <td>San Marcos</td>
+                                                <td>San Salvador</td>
+                                                <td><a data-toggle="modal" data-target="#editmodal"><i
+                                                            class="fas fa-pen text-success"></i></a>
+                                                    <a data-toggle="modal" data-target="#exampleModal"><i
+                                                            class="fas fa-trash-alt icon2 text-danger"></i></a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">1</th>
+                                                <td>San Marcos</td>
+                                                <td>San Salvador</td>
                                                 <td><a data-toggle="modal" data-target="#editmodal"><i
                                                             class="fas fa-pen text-success"></i></a>
                                                     <a data-toggle="modal" data-target="#exampleModal"><i
@@ -281,7 +305,7 @@
                                             <tr>
                                                 <th scope="row">1</th>
                                                 <td>San Marcos</td>
-                                                <td>San salvador</td>
+                                                <td>San Salvador</td>
                                                 <td><a data-toggle="modal" data-target="#editmodal"><i
                                                             class="fas fa-pen text-success"></i></a>
                                                     <a data-toggle="modal" data-target="#exampleModal"><i
@@ -291,27 +315,7 @@
                                             <tr>
                                                 <th scope="row">1</th>
                                                 <td>San Marcos</td>
-                                                <td>San salvador</td>
-                                                <td><a data-toggle="modal" data-target="#editmodal"><i
-                                                            class="fas fa-pen text-success"></i></a>
-                                                    <a data-toggle="modal" data-target="#exampleModal"><i
-                                                            class="fas fa-trash-alt icon2 text-danger"></i></a>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <th scope="row">1</th>
-                                                <td>San Marcos</td>
-                                                <td>San salvador</td>
-                                                <td><a data-toggle="modal" data-target="#editmodal"><i
-                                                            class="fas fa-pen text-success"></i></a>
-                                                    <a data-toggle="modal" data-target="#exampleModal"><i
-                                                            class="fas fa-trash-alt icon2 text-danger"></i></a>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <th scope="row">1</th>
-                                                <td>San Marcos</td>
-                                                <td>San salvador</td>
+                                                <td>San Salvador</td>
                                                 <td><a data-toggle="modal" data-target="#editmodal"><i
                                                             class="fas fa-pen text-success"></i></a>
                                                     <a data-toggle="modal" data-target="#exampleModal"><i
@@ -332,8 +336,9 @@
                                                         <span aria-hidden="true">&times;</span>
                                                     </button>
                                                 </div>
+                                                <!-- Menu para eliminar municipio-->
                                                 <div class="modal-body">
-                                                    ¿Estas seguro que quieres eliminar este municipio?
+                                                    ¿Éstas seguro que quieres eliminar este municipio?
                                                 </div>
                                                 <div class="modal-footer">
                                                     <button type="button" class="btn btn-secondary"
@@ -343,6 +348,7 @@
                                             </div>
                                         </div>
                                     </div>
+                                    <!-- Menu para editar municipio-->
                                     <div class="modal fade" id="editmodal" tabindex="-1" role="dialog"
                                         aria-labelledby="editModalLabel" aria-hidden="true">
                                         <div class="modal-dialog modal-dialog-centered" role="document">
@@ -359,7 +365,7 @@
                                                     <form action="">
                                                         <div class="row">
                                                             <div class="col-12">
-                                                                <label for="corelativoa"> Codigo</label>
+                                                                <label for="corelativoa"> Código</label>
                                                                 <input type="text" id="corelativoa"
                                                                     class="form-control">
                                                                 <label for="corelativoa"> Municipio:</label>
@@ -380,6 +386,7 @@
                                             </div>
                                         </div>
                                     </div>
+                                    <!-- Menu para agregar municipio-->
                                     <div class="modal fade" id="addmodal" tabindex="-1" role="dialog"
                                         aria-labelledby="addModalLabel" aria-hidden="true">
                                         <div class="modal-dialog modal-dialog-centered" role="document">
@@ -396,7 +403,7 @@
                                                     <form action="">
                                                         <div class="row">
                                                             <div class="col-12">
-                                                                <label for="corelativoa"> Codigo</label>
+                                                                <label for="corelativoa"> Código</label>
                                                                 <input type="text" id="corelativoa"
                                                                     class="form-control">
                                                                 <label for="corelativoa"> Municipio:</label>
@@ -417,6 +424,7 @@
                                             </div>
                                         </div>
                                     </div>
+                                    <!-- Navegacion de paginas-->
                                     <nav aria-label="Page navigation example ">
                                         <ul class="pagination justify-content-center">
                                             <li class="page-item"><a class="page-link" href="#">Previous</a>

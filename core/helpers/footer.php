@@ -12,9 +12,6 @@ $("#menu-toggle").click(function(e) {
 <script src="../../resources/js/bootstrap.min.js"></script>
 
 <script src="../../resources/js/all.min.js"></script>
-
-<script src="../../resources/js/Chart.min.js"></script>
-<script src="../../resources/js/graficos.js"></script>
 </body>
 
 </html>

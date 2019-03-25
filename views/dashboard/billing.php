@@ -48,11 +48,12 @@
                                             <button type="button" class="btn btn-outline-primary mx-auto diseño"
                                                 data-toggle="modal" data-target="#addmodal">Agregar</button>
                                         </div>
+                                        <!-- Se crea la tabla-->
                                         <div class="col-12">
                                             <table class="table table-responsive-sm">
                                                 <thead class="bg-primary text-white">
                                                     <tr>
-                                                        <th scope="col">Codigo</th>
+                                                        <th scope="col">Código</th>
                                                         <th scope="col">Facturacion</th>
                                                         <th scope="col">acciones</th>
                                                     </tr>
@@ -79,6 +80,7 @@
                                                     <tr>
                                                 </tbody>
                                             </table>
+                                            <!-- Menu para eliminar tipo de factura-->
                                             <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
                                                 aria-labelledby="exampleModalLabel" aria-hidden="true">
                                                 <div class="modal-dialog modal-dialog-centered" role="document">
@@ -91,8 +93,9 @@
                                                                 <span aria-hidden="true">&times;</span>
                                                             </button>
                                                         </div>
+                                                        <!-- boton de confirmacion para elimar el dato-->
                                                         <div class="modal-body">
-                                                            ¿Estas seguro que quieres eliminar?
+                                                            ¿Éstas seguro que quieres eliminar?
                                                         </div>
                                                         <div class="modal-footer">
                                                             <button type="button" class="btn btn-secondary"
@@ -103,6 +106,7 @@
                                                     </div>
                                                 </div>
                                             </div>
+                                            <!-- Menu para editar tipo de factura-->
                                             <div class="modal fade" id="editmodal" tabindex="-1" role="dialog"
                                                 aria-labelledby="editModalLabel" aria-hidden="true">
                                                 <div class="modal-dialog modal-dialog-centered" role="document">
@@ -120,7 +124,7 @@
                                                             <form action="">
                                                                 <div class="row">
                                                                     <div class="col-12">
-                                                                        <label for="corelativoa"> Codigo</label>
+                                                                        <label for="corelativoa"> Código</label>
                                                                         <input type="text" id="corelativoa"
                                                                             class="form-control">
                                                                         <label for="corelativoa"> Tipo
@@ -140,6 +144,7 @@
                                                     </div>
                                                 </div>
                                             </div>
+                                            <!-- Menu para agregar tipo de factura-->
                                             <div class="modal fade" id="addmodal" tabindex="-1" role="dialog"
                                                 aria-labelledby="addModalLabel" aria-hidden="true">
                                                 <div class="modal-dialog modal-dialog-centered" role="document">
@@ -177,6 +182,7 @@
                                                     </div>
                                                 </div>
                                             </div>
+                                            <!-- navegacion de paginas-->
                                             <nav aria-label="Page navigation example ">
                                                 <ul class="pagination justify-content-center">
                                                     <li class="page-item"><a class="page-link" href="#">Previous</a>
@@ -194,6 +200,7 @@
                         </div>
                     </div>
                 </div>
+                <!-- buscador-->
                 <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
                     <div class="card">
                         <div class="card-body">
@@ -208,6 +215,7 @@
                                         </form>
                                     </nav>
                                 </div>
+                                <!-- boton para guardar o agregar-->
                                 <div class="col-sm-12 col-md-12 col-lg-3">
                                     <button type="button" class="btn btn-outline-primary mx-auto diseño"
                                         data-toggle="modal" data-target="#addmodal2">Agregar</button>
@@ -216,9 +224,9 @@
                                     <table class="table table-responsive-sm">
                                         <thead class="bg-primary text-white">
                                             <tr>
-                                                <th scope="col">Codigo</th>
+                                                <th scope="col">Código</th>
                                                 <th scope="col">Comprobante</th>
-                                                <th scope="col">acciones</th>
+                                                <th scope="col">Ácciones</th>
                                             </tr>
                                         </thead>
                                         <tbody>
@@ -233,7 +241,7 @@
                                             </tr>
                                             <tr>
                                                 <th scope="row">1</th>
-                                                <td>Credito fiscal</td>
+                                                <td>Crédito fiscal</td>
                                                 <td><a data-toggle="modal" data-target="#editmodal2"><i
                                                             class="fas fa-pen text-success"></i></a>
                                                     <a data-toggle="modal" data-target="#exampleModal2"><i
@@ -259,6 +267,7 @@
                     </div>
                 </div>
             </div>
+            <!-- boton para eliminar-->
             <div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
                 aria-hidden="true">
                 <div class="modal-dialog modal-dialog-centered" role="document">
@@ -271,7 +280,7 @@
                             </button>
                         </div>
                         <div class="modal-body">
-                            ¿Estas seguro que quieres eliminar?
+                            ¿Éstas seguro que quieres eliminar?
                         </div>
                         <div class="modal-footer">
                             <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
@@ -296,7 +305,7 @@
                             <form action="">
                                 <div class="row">
                                     <div class="col-12">
-                                        <label for="corelativoa"> Codigo</label>
+                                        <label for="corelativoa"> Código</label>
                                         <input type="text" id="corelativoa" class="form-control">
                                         <label for="corelativoa"> tipo
                                             comprobante:</label>
@@ -328,7 +337,7 @@
                             <form action="">
                                 <div class="row">
                                     <div class="col-12">
-                                        <label for="corelativoa"> Codigo
+                                        <label for="corelativoa"> Código
                                         </label>
                                         <input type="text" id="corelativoa" class="form-control">
                                         <label for="corelativoa">tipo
